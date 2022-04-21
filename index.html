@@ -1,1 +1,91 @@
-"testing" 
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Toadfinger</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<script src="js/w3.js"></script>
+<style>
+body, h1, h2, h3, h4, h5, h6 {
+  background-color: rgb(10,10,10);
+  color: rgb(210,255,210);
+	font-family: "Papyrus";
+}
+</style>
+<body>
+
+<!-- Navigation (Stays on Top) -->
+<div class="w3-top w3-bar w3-black">
+<a href="#home" class="w3-bar-item w3-button">Home</a>
+<a href="#about" class="w3-bar-item w3-button">About</a>
+<a href="#members" class="w3-bar-item w3-button">Members</a>
+<a href="#preview" class="w3-bar-item w3-button">Preview</a>
+<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- Slides -->
+<img class="slides" src="jpg/sld_0.jpg" style="width:100%">
+<img class="slides" src="jpg/sld_1.jpg" style="width:100%">
+<script>
+w3.slideshow(".slides", 3000);
+</script>
+
+<!-- About -->
+<div id="about" class="w3-container w3-padding-32">
+<h1 class="w3-center w3-wide">Toadfinger</h1>
+<br>
+<p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<!-- Members -->
+<div id="members" class="w3-container w3-padding-32">
+<h2 class="w3-center w3-wide">Band Members</h2>
+<br>
+<div class="w3-row w3-center">
+
+<div class="w3-third">
+<img src="jpg/bnd_0.jpg" alt="Name1" style="width:80%">
+</div>
+
+<div class="w3-third">
+<img src="jpg/bnd_1.jpg" alt="Name2" style="width:80%">
+</div>
+
+<div class="w3-third">
+<img src="jpg/bnd_2.jpg" alt="Name3" style="width:80%">
+</div>
+
+</div>
+</div>
+
+<!-- Preview -->
+<div id="preview" class="w3-container w3-center w3-padding-32">
+<h2 class="w3-wide">Preview</h2>
+<br>
+<video class="w3-center" width="640" height="368" controls>
+  <source src="mp4/pro_0.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+
+<!-- Contact -->
+<div id="contact" class="w3-container w3-center w3-padding-32">
+<h2 class="w3-wide">Contact</h2>
+<br>
+Huntsville, Alabama<br>
+Phone: 555 555 5555<br>
+Email: mail@mail.com<br>
+<br>
+<br>
+<img src="jpg/map.jpg" class="w3-image" style="width:100%">
+
+</div>
+
+<!-- End Content -->
+</div>
+
+</body>
+</html>
